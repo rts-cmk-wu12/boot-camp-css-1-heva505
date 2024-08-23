@@ -1,0 +1,317 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;  
+}
+#wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #000;
+}
+
+header {
+  margin-bottom: 4em;
+}
+
+nav {
+  max-width: 100%;
+  background-color: #0fe6e6; 
+  min-height: 158px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul {
+  color: white;
+  width: 100vw;
+  max-width: 100%;
+  align-items: center;
+  list-style: none;
+  display: none;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #0FE6E6;
+}
+
+#uddannelse:hover{
+  background-color: #5132d0;
+    transition: 300ms;
+    box-shadow: 0px 10px 20px rgba(13, 18, 39, 0.3);
+}
+  
+
+#logo {
+  display: block;
+  width: 100px;
+  margin: 20px auto;
+
+
+}
+
+.burgerIkon {
+  margin-right: 2em;
+  font-size: 30px;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+}
+
+.startrejse {
+  width: 100%;
+  height: 250px;
+  background-color: #210F54;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.startrejse h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  margin: 0 auto;
+  font-style: normal;
+  line-height: normal;
+  color: #0fe6e6;
+  font-family: "Inknut Antiqua";
+}
+
+
+.startrejse h2 {
+  color: #FFF;
+  font-family: "Inknut Antiqua";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.startrejse button {
+  display: block;
+  color: #FFF;
+  background-color: #0fe6e6;
+  font-family: "Inknut Antiqua";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  overflow: auto;
+  width: 208px;
+  height: 56px;
+  align-items: center;
+  position: relative;
+  top: 4em;
+
+
+}
+
+.card0__text p {
+
+  margin-left: 1.5em;
+
+}
+.card0_list{
+  margin-left: 2em;
+}
+
+.card0 h3 {
+  color: #0FE6E6;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: normal;
+  font-size: 30px;
+
+  font-weight: bold;
+
+  margin-left: 0.8em;
+
+}
+
+.offer {
+  color: #FFFFFF;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 2em;
+  font-weight: 400;
+  padding-bottom: 1em;
+
+}
+
+.about-us {
+
+  color: #0FE6E6;
+
+  font-family: 'Courier New', Courier, monospace;
+
+  font-style: normal;
+
+  font-size: 40px;
+
+  line-height: 52px;
+
+  font-weight: bold;
+
+  
+
+}
+
+
+
+.uddannelse {
+  color: aliceblue;
+  width: 75%;
+  margin-bottom: 2em;
+
+}
+
+.del-1 {
+  color: #0FE6E6;
+
+}
+
+.del-2 {
+  color: #FFF;
+}
+
+.del-3 {
+  color: #FFF;
+}
+
+.card {
+  color: aliceblue;
+  background-color: #210F54;
+  margin-bottom: 1em;
+}
+
+.card_heading {
+  color: #0FE6E6;
+  margin-left: 1em;
+}
+
+.card0 {
+  margin-top: 2em;
+}
+
+.fram1,
+.card0 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.foto,
+.foto0 {
+  width: 100%;
+}
+
+
+.text {
+  padding: 0 1.5em;
+
+}
+
+.extra-text {
+  display: none;
+  
+}
+
+
+.text {
+  padding-bottom: 0.5em;
+}
+
+
+.end {
+  color: #0fe6e6;
+  text-align: center;
+  font-family: "Inter-Black", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  width: 100%;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+
+
+@media only screen and (min-width: 992px) {
+
+  .burgerIkon {
+    display: none;
+  }
+  nav{
+    display: flex;
+    flex-direction: row;
+    
+  }
+ 
+  nav ul {
+    font-weight: bold;
+    font-size: 18px;
+    position: unset;
+   flex-direction: row;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   height: 58px;
+   padding-left: 4em;
+   padding-top: 2.5em;
+   gap: 2em;
+  }
+  nav ul li{
+    width: 250px;
+  }
+  nav a{text-decoration: none;
+  color: white;}
+#logo{
+  margin-left: 0;
+}
+  .card0 {
+    width: 100%;
+    display: flex;
+  }
+
+  .card0__text {
+    flex: 4;
+    margin-left: 0;
+  }
+
+  .foto0 {
+
+    flex: 1;
+    margin: 1em;
+    margin-right: 3em;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+  }
+
+  .foto {
+    height: 9em;
+    width: 100%;
+  }
+
+  .form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
+
+  .mapcontainer {
+    margin: 0;
+  }
+
+}
